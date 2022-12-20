@@ -15,7 +15,7 @@ PORT = environ.get("PORT", "8080")
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '26372291'))
 API_HASH = environ.get('API_HASH', '77bdce9b8a2f2cdd6f2984f5fa6507c7')
-BOT_TOKEN = environ.get('BOT_TOKEN', "5822444209:AAHIDGiIadMzm_ZD0MbDtfQfjabv3YS-dWE")
+BOT_TOKEN = environ.get('BOT_TOKEN', "AAHIDGiIadMzm_ZD0MbDtfQfjabv3YS-dWE")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -44,7 +44,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 # Channel Button Links
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/moverequester')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/moverequest')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/Yuvifilter_bot')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '@Auto_filtermovebot')
 MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support Us')
 
 # Custom Chats
